@@ -1,0 +1,31 @@
+# --- Results and Logs ---
+# Ignore the specific output files from your script
+healthbench_*.json
+healthbench_*.html
+
+# Ignore general large output formats
+*.log
+*.csv
+# Be careful with *.json if you have config files you want to keep!
+# Better to ignore specific result patterns:
+*_results.json
+*_output.json
+
+# --- Large Data & Models ---
+# Ignore downloaded datasets
+*.jsonl
+data/
+datasets/
+cache/
+
+# Ignore Model Weights (Very Important!)
+*.bin
+*.pt
+*.pth
+*.gguf
+*.safetensors
+models/
+weights/
+
+# Ignore System Files
+.DS_Store
