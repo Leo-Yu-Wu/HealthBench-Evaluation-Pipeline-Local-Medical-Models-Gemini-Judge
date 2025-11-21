@@ -136,7 +136,8 @@ huggingface-cli delete-cache
     * Ensure `--tensor-parallel-size 2` is set if using 2 GPUs.
 
     * If using older GPUs (non-Ada), add `--quantization bitsandbytes` to the vLLM command.
-
+* Other Errors:
+  * Please refer to the [Simple Evals](https://github.com/openai/simple-evals) documentation.
 ## Acknowledgements & Citations
 
 

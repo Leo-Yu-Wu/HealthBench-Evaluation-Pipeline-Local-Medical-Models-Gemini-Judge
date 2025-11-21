@@ -26,6 +26,9 @@ cache/
 *.safetensors
 models/
 weights/
+results/
 
 # Ignore System Files
 .DS_Store
+/human-eval/
+
