@@ -2,7 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/human-eval" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/simple-evals" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/human-eval" vcs="" />
+    <mapping directory="$PROJECT_DIR$/simple-evals" vcs="" />
   </component>
 </project>
